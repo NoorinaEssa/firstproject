@@ -1,0 +1,287 @@
+/* *{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.mainbox{
+    background-color: blue;
+    height: 100vh;
+    width: 100%;
+    border: 10px solid gray;
+
+}
+#box1{
+    background-color: #fff;
+   width: 80%;
+   padding: 10px;
+   margin-left: 10%;
+   margin-top: 3%;
+   height: 88%;
+   border: 10px solid grey;
+   
+  
+    
+}
+.div1{
+    width: 150px;
+    height: 20px;
+    background-color: grey;
+    margin-top: 3%;
+    margin-left: 5%;
+    border-radius: 2px solid grey;
+}
+.div2{
+    width: 150px;
+    height: 20px;
+    background-color: grey;
+    margin-top: 2%;
+    margin-left:40%; 
+}
+.div3{
+    width: 150px;
+    height: 20px;
+    background-color: grey;
+   margin-top: -5%;
+    margin-left: 80%; 
+}
+.div4{
+    width: 300px;
+    height: 20px;
+    background-color: rgb(250, 15, 15);
+    margin-left:33%;
+    margin-top: 8%; 
+    
+}
+.second{
+    background-color: aqua;
+    width: 100%;
+    height: 42vh;
+}
+.second1{
+    background-color: #fff;
+    height:35vh;
+    width: 400px;
+    margin-left: 8%;
+}
+.second2{
+    background-color: grey;
+    width: 100px;
+    height: 20px;
+    margin-left: 10px;
+}
+.second3{
+    background-color: rgb(44, 11, 232);
+    width: 200px;
+    height: 20px;
+    margin-left: 25%;
+    margin-top: 35%;
+}
+.second4{
+    background-color: rgb(128, 128, 128);
+    width: 100px;
+    height: 20px;
+    margin-left: 73%;
+margin-top: -45%;
+}
+.last{
+background-color: #fff;
+height: 38vh;
+width: 400px;
+margin-left: 55%;
+margin-top: -23%;
+   
+}
+.last1{
+    background-color: rgb(37, 23, 225);
+    width: 130px;
+    height: 25px;
+    margin-top: 10px;
+   
+}
+.last2{
+    background-color: rgb(86, 86, 90);
+    width: 130px;
+    height: 25px;
+    margin-top: 20%;
+}
+.last3{
+    background-color: rgb(20, 20, 203);
+    width: 130px;
+    height: 25px;
+    margin-top: 18%;
+}
+.last4{
+    background-color: rgb(97, 97, 103);
+    width: 130px;
+    height: 25px;
+    margin-top: -57%;
+    margin-left: 67.5%;
+ 
+   
+}
+.last5{
+    background-color: rgb(73, 70, 70);
+    width: 130px;
+    height: 25px;
+    margin-top: 20%;
+    margin-left: 67.5%;
+}
+.last6{
+    background-color: rgb(108, 108, 112);
+    width: 130px;
+    height: 25px;
+    margin-top: 18%;
+    margin-left: 67.5%;
+}
+ */
+
+
+
+
+
+ /*task3*/
+/* .boxes{
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+.box1{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+} 
+.box2{
+    background-color: rgb(0, 255, 55);
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 92%;
+} 
+.box3{
+    background-color: rgb(255, 0, 51);
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 48%;
+   
+} 
+.box4{
+    background-color: brown;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+   top: 83%;
+}
+.box5{
+    background-color: rgb(56, 165, 42);
+    height: 100px;
+    width: 100px;
+    position: absolute;
+   top: 83%;
+   left: 48%;
+}
+.box6{
+    background-color: rgb(255, 0, 208);
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 92%;
+    margin-top: 40%;
+} 
+.box7{
+    background-color: rgb(11, 211, 241);
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 48%;
+    top: 40%;
+}  */
+
+
+
+
+/*Background-image*/
+*{
+    margin: 0%;
+    padding: 0%;
+  
+}
+.img{
+    background-image:url('https://khaadi.com/media/wysiwyg/khaadi/01-01-landingpage/Country_Landing-0602-1920x1080.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+.logo img{
+    height: 150px;
+    width: 200px;
+    margin-left: 70%;
+    margin-top: 13%;
+}
+select{
+    margin-left: 68%;
+    margin-top: -9%;
+    height: 40px;
+    width: 265px;
+    border-color: none;
+}
+button{
+    background-color: black;
+    color: white;
+    width: 170px;
+    height: 30px;
+    margin-left:72%;
+    
+
+}
+button:hover{
+    background-color: white;
+    color: black;
+    
+}
+button a{
+    text-decoration: none;
+    background-color: black;
+    color: #fff;
+   
+}
+
+
+
+
+
+
+/* <!---Animations--> */
+/* div {
+    width: 100px;
+    height: 50px;
+    background-color: red;
+    position: relative;
+    animation-name: changeColor;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-timing-function: 3s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes changeColor {
+    0%   {
+      left:0px; top:0px;
+    }
+    25%  {
+       left:800px; top:0px;
+    }
+    50%  {
+         left:800px; top:800px;
+    }
+    75%  {
+      left:0px; top:800px;
+    }
+    100% {
+       left:0px; top:0px;
+    }
+  } */

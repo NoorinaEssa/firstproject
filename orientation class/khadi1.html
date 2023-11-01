@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="omelete.css">
+    <script src="https://kit.fontawesome.com/9d3a72aa10.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    
+<div class="container">
+    <div class="row">
+<div class="col-lg-6">
+    <img src="https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Sites-khaadi-master-catalog/default/dwcf312198/images/hi-res/est23428_blue_1.jpg?sw=800&sh=1200" width="100%">
+</div>
+  
+    <div class="col-lg-6">
+    <div class="d-flex flex-column">
+    <h4>Classic Kameez</h4>
+   <p>Printed Embroidered | Dull Raw Silk</p>
+   <p>Rs 4,990</p>
+   <p>availability:<span style="color: green;">In stock</span></p>
+   <h5>color</h5>
+   <div class="box" style="height: 25px; width: 25px; background-color: blue; border: 3px solid #000;"></div><br>
+<h5>size</h5>
+<div class="size">
+    <div class="size1"><p>10</p></div>
+    <div class="size2"><p>12</p></div>
+    <div class="size3"><p>16</p></div>
+</div><br>
+
+<h5 style="color: grey;"><i class="fa-solid fa-ruler mt-3"></i>size chart</h5>
+<div class="container text-center  d-flex">
+    
+   
+    <button class="btn btn-primary" id="increment">+</button>
+    <div class="counter" id="count">0</div>
+    <button class="btn border-dark" id="decrement">-</button>
+    <button class="btn btn-dark text-white">+ADD TO BAG</button>
+</div>
+
+</div>
+
+</div>
+</div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script>
+    $(document).ready(function() {
+        let count = 0;
+
+        $('#increment').on('click', function() {
+            count++;
+            $('#count').text(count);
+        });
+    });
+</script>
+<script>
+    $(document).ready(function() {
+        let count = 0;
+
+        $('#decrement').on('click', function() {
+           count--;
+            $('#count').text(count);
+        });
+    });
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</body>
+</html>
